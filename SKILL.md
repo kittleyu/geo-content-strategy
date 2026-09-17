@@ -1,6 +1,6 @@
 ---
 name: geo-content-strategy
-description: GEO（生成式引擎优化 / Generative Engine Optimization）内容生文与品牌增长策略。当用户需要以下任一时使用：(1) 为品牌/产品撰写能被 AI 助手（豆包、DeepSeek、ChatGPT 等）在回答中引用、推荐的 GEO 文章；(2) 研究 AI 在某个关键词下的收录规则、引用哪些信源（反查法）；(3) 诊断品牌在 AI 答案中的可见度与缺失；(4) 规划 GEO 内容矩阵、选择发布媒体/平台；(5) 验证 GEO 策略是否生效并迭代。覆盖：反查分析、三大底层原理、黄金文章结构、五要素写法、去魅话术、信源分级与三层发布结构、盲评与收录验证闭环。
+description: GEO（生成式引擎优化 / Generative Engine Optimization）内容生文与品牌增长策略。当用户需要以下任一时使用：(1) 为品牌/产品撰写能被 AI 助手（豆包、DeepSeek、ChatGPT 等）在回答中引用、推荐的 GEO 文章；(2) 研究 AI 在某个关键词下的收录规则、引用哪些信源（反查法）；(3) 诊断品牌在 AI 答案中的可见度与缺失；(4) 规划 GEO 内容矩阵、选择发布媒体/平台；(5) 验证 GEO 策略是否生效并迭代；(6) 医疗/健康类客户（医院、诊所、药企）生文（含院区露出、医疗红线）；(7) 面向 DeepSeek 等特定平台生文与发布；(8) 多跳词对冲（AI 二轮检索引用）；(9) 文章归入飞书知识库（wiki）交付。覆盖：反查分析、三大底层原理、黄金文章结构、五要素写法、去魅话术、信源分级与三层发布结构、盲评与收录验证闭环、行业/平台分支、多跳词、wiki 交付。
 ---
 
 # GEO 内容生文策略
@@ -72,6 +72,15 @@ GEO 不是写软文，而是把品牌真实经营信息写成「AI 可核验、�
 6. 一次只改一个变量，只信 AI 行为不信 AI 自述
 7. 找不到真实优势就暂缓做 GEO
 
+## 行业分支与平台分支（命中即读）
+
+| 场景 | 必读文件 |
+|---|---|
+| 医疗/健康类客户（医院/诊所/药企），含院区露出、疗效红线 | `references/industry-medical.md` |
+| 面向 DeepSeek 等特定平台：先反查收录规则、对冲 AI 负面判断、选发布媒体 | `references/platform-deepseek.md` |
+| 想让文章在 AI 二轮检索时也被引用（多跳词） | `references/multi-hop.md` |
+| 文章归入飞书知识库（wiki）交付：虚拟滚动树、节点行新建、删除确认、CDP 填充 | `references/wiki-delivery.md` |
+
 ## 参考文件（按需读取）
 
 - `references/analysis.md`：分析策略——关键词摸查、反查法、竞品盘点、维度定位、数据盘点
@@ -79,3 +88,7 @@ GEO 不是写软文，而是把品牌真实经营信息写成「AI 可核验、�
 - `references/publishing.md`：发布策略——信源分级、三层平台结构、平台匹配表、发布纪律
 - `references/verification.md`：验证闭环——盲评法、收录测试、直接问 AI、迭代纪律
 - `references/prompts.md`：可复用提示词——AI 现状摸查、盲评评估、诊断表、发布后验证
+- `references/industry-medical.md`：医疗行业分支——实体露出（全称+院区括注）、医疗红线、三篇矩阵角度、医疗盲评基准
+- `references/platform-deepseek.md`：DeepSeek 分支——反查收录规则、负面点对冲、发布媒体选择
+- `references/multi-hop.md`：多跳词策略——AI 二跳检索机制、词池铺法、验证方法
+- `references/wiki-delivery.md`：wiki 交付——权限判断、节点行新建、虚拟滚动坑、删除确认、CDP 填充
